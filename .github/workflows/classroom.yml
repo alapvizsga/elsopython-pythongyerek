@@ -13,15 +13,16 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-    - name: pyt1
-      id: pyt1
+    - name: test_elso
+      id: test_elso
       uses: classroom-resources/autograding-python-grader@v1
       with:
         timeout: 10
+        max-score: 21
         setup-command: ''
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
-        PYT1_RESULTS: "${{steps.pyt1.outputs.result}}"
+        TEST_ELSO_RESULTS: "${{steps.test_elso.outputs.result}}"
       with:
-        runners: pyt1
+        runners: test_elso
