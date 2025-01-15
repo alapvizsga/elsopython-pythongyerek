@@ -4,69 +4,75 @@ def osszead(szam1, szam2):
     """ A függvény két számot kap és 
         visszatér a két szám összegével.
     """
+    pass
     return szam1 + szam2
 
 
-#assert osszead(14, -8) == 6
+assert osszead(14, -8) == 6
 #---------------------------------------------------------
 
 def kisebb(szam1, szam2):
     """ A függvény két számot kap és 
         visszatér a kisebbel.
     """
-    pass # Írd a kódodat a következő sorokba!
+    pass
+    return szam1 < szam2
 
 
-#assert kisebb(10, -7) == -7
-#assert kisebb(-10, 7) == -10
+assert kisebb(10, -7) == -7
+assert kisebb(-10, 7) == -10
 #---------------------------------------------------------
 
 def nagyobb(szam1, szam2):
     """ A függvény két számot kap és 
         visszatér a nagyobbal.
     """
-    pass # Írd a kódodat a következő sorokba!
+    pass
+    return szam1 > szam2
         
 
-#assert nagyobb(12, -8) == 12
-#assert nagyobb(-12, -8) == -8
+assert nagyobb(12, -8) == 12
+assert nagyobb(-12, -8) == -8
 #---------------------------------------------------------
 
 def szamtani_kozep(szam1, szam2):
     """ A függvény két számot kap és 
         visszatér a számtani középpel.
     """
-    pass # Írd a kódodat a következő sorokba!
+    pass
+    return (szam1 + szam2) // 2
 
-
-#assert szamtani_kozep(3, 5) == 4.0
+assert szamtani_kozep(3, 5) == 4.0
 #---------------------------------------------------------
  
 def negyzet_kerulet(oldal):
     """ A függvény egy négyzet oldalhosszát kapja bemenetként és 
         visszatér a négyzet kerületével.
     """
-    pass # Írd a kódodat a következő sorokba!
+    pass
+    return oldal * 4
 
 
-#assert negyzet_kerulet(5) == 20
-#assert negyzet_kerulet(5.1) == 20.4
+assert negyzet_kerulet(5) == 20
+assert negyzet_kerulet(5.1) == 20.4
 #---------------------------------------------------------
  
 def negyzet_terulet(oldal):
     """ A függvény egy négyzet oldalhosszát kapja bemenetként és 
         visszatér a négyzet területével.
     """    
-    pass # Írd a kódodat a következő sorokba!
+    pass
+    return oldal * oldal
 
 
-#assert negyzet_terulet(5.0) == 25.0
+assert negyzet_terulet(5.0) == 25.0
 #---------------------------------------------------------
  
 def teglalap_kerulet(oldal1, oldal2):
     """ A függvény egy téglalap oldalhosszait kapja bemenetként és 
         visszatér a téglalap kerületével.
     """
+    
     pass # Írd a kódodat a következő sorokba!
 
 
