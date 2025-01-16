@@ -223,7 +223,8 @@ def negyzet_atloja(oldal):
         az átló hosszával tér vissza.
     """    
     pass # Írd a kódodat a következő sorokba!
-    return oldal * (2 ** 0.5)
+    atlo = oldal * (2 ** 0.5)
+    return atlo
 
 assert round(negyzet_atloja(10),5) == round(14.142135623730951,5)
 #---------------------------------------------------------
