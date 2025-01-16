@@ -46,7 +46,7 @@ def szamtani_kozep(szam1, szam2):
         visszatér a számtani középpel.
     """
     pass
-    return (szam1 + szam2) // 2
+    return (szam1 + szam2) / 2
 
 assert szamtani_kozep(3, 5) == 4.0
 #---------------------------------------------------------
